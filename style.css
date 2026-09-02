@@ -39,3 +39,21 @@ footer{text-align:center;border-top:1px solid var(--line);padding:25px;color:#66
 .reveal{opacity:0;transform:translateY(25px);transition:opacity .7s ease,transform .7s ease}.reveal.show{opacity:1;transform:none}
 @media(max-width:800px){.navbar{padding:0 22px}nav{display:none;position:absolute;top:76px;left:0;right:0;background:#0a0a0e;padding:20px 25px;flex-direction:column;border-bottom:1px solid var(--line)}nav.open{display:flex}.menu-btn{display:block}.section{padding:85px 22px}.hero{grid-template-columns:1fr;padding-top:125px;gap:45px}.hero-card{transform:none}.about-grid,.projects-grid,.experience-grid{grid-template-columns:1fr}.skills-grid{grid-template-columns:1fr 1fr}.cert-grid{grid-template-columns:1fr 1fr}.activity{grid-template-columns:1fr 20px}.activity-year{grid-column:1/-1}.activity>div{grid-column:1}.activity>b{grid-column:2;grid-row:2}.quick-stats{gap:22px}h1{letter-spacing:-2.5px}}
 @media(max-width:500px){.skills-grid,.cert-grid{grid-template-columns:1fr}.hero-text{font-size:15px}.quick-stats strong{font-size:21px}.contact h2{letter-spacing:-2px}}
+/* Profile Photo */
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 25px;
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(135deg, #9b7cff, #63e6d4);
+    box-shadow: 0 0 40px rgba(155,124,255,.25);
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
