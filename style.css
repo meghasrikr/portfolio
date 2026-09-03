@@ -42,8 +42,8 @@ footer{text-align:center;border-top:1px solid var(--line);padding:25px;color:#66
 /* Profile Photo */
 /* Profile Photo */
 .profile-photo {
-    width: 320px;
-    height: 320px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto 25px;
     border-radius: 22px;
     padding: 5px;
